@@ -6,7 +6,7 @@ import { withMatrix } from 'storybook-addon-matrix'
 import { addDashboardI18N } from '../src/locales'
 import { I18nextProvider, initReactI18next } from 'react-i18next'
 import i18n from 'i18next'
-import { CustomSnackbarProvider } from '../src/components/CustomSnackbarProvider'
+import { CustomSnackbarProvider } from '@masknet/theme'
 i18n.init({
     resources: {},
     keySeparator: false,
