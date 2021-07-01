@@ -45,7 +45,8 @@ export interface TradeProviderSettings {
     pools: ZrxTradePool[]
 }
 
-const uniswapSettings = createInternalSettings<string>(`${PLUGIN_IDENTIFIER}+tradeProvider+uniswap`, '')
+const uniswapV2Settings = createInternalSettings<string>(`${PLUGIN_IDENTIFIER}+tradeProvider+uniswap+v2`, '')
+const uniswapV3Settings = createInternalSettings<string>(`${PLUGIN_IDENTIFIER}+tradeProvider+uniswap+v3`, '')
 const zrxSettings = createInternalSettings<string>(
     `${PLUGIN_IDENTIFIER}+tradeProvider+zrx`,
     stringify({
@@ -64,7 +65,9 @@ const balancerSettings = createInternalSettings<string>(`${PLUGIN_IDENTIFIER}+tr
 export function getCurrentTradeProviderGeneralSettings(tradeProvider: TradeProvider) {
     switch (tradeProvider) {
         case TradeProvider.UNISWAP_V2:
-            return uniswapSettings
+            return uniswapV2Settings
+        case TradeProvider.UNISWAP_V3:
+            return uniswapV3Settings
         case TradeProvider.ZRX:
             return zrxSettings
         case TradeProvider.SUSHISWAP:
