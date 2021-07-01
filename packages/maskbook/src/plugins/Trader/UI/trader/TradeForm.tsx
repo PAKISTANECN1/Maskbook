@@ -12,7 +12,7 @@ import { TokenPanelType, TradeComputed, TradeProvider, TradeStrategy, WarningLev
 import { TokenAmountPanel } from '../../../../web3/UI/TokenAmountPanel'
 import { useI18N, useRemoteControlledDialog } from '../../../../utils'
 import { EthereumTokenType, formatPercentage, FungibleTokenDetailed, isLessThan, pow10 } from '@masknet/web3-shared'
-import { currentSlippageTolerance } from '../../settings'
+import { currentSlippageToleranceSettings } from '../../settings'
 import { PluginTraderMessages } from '../../messages'
 import { isNativeTokenWrapper, toBips } from '../../helpers'
 import { resolveUniswapWarningLevel } from '../../pipes'
@@ -220,7 +220,7 @@ export function TradeForm(props: TradeFormProps) {
                 <div className={classes.status}>
                     <Typography className={classes.label} color="textSecondary" variant="body2">
                         {t('plugin_trader_slipage_tolerance')}{' '}
-                        {formatPercentage(toBips(currentSlippageTolerance.value))}
+                        {formatPercentage(toBips(currentSlippageToleranceSettings.value))}
                     </Typography>
                     <IconButton className={classes.icon} size="small" onClick={onRefreshClick}>
                         <RefreshOutlined fontSize="small" />

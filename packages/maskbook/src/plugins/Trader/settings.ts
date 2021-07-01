@@ -8,9 +8,20 @@ import { DataProvider, TradeProvider, ZrxTradePool } from './types'
 /**
  * The slippage tolerance of trader
  */
-export const currentSlippageTolerance = createGlobalSettings<number>(
+export const currentSlippageToleranceSettings = createGlobalSettings<number>(
     `${PLUGIN_IDENTIFIER}+slippageTolerance`,
     SLIPPAGE_TOLERANCE_DEFAULT,
+    {
+        primary: () => '',
+    },
+)
+
+/**
+ * Single Hop
+ */
+export const currentSingleHopOnlySettings = createGlobalSettings<boolean>(
+    `${PLUGIN_IDENTIFIER}+singleHopOnly`,
+    false,
     {
         primary: () => '',
     },

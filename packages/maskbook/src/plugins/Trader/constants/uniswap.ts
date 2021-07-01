@@ -28,7 +28,7 @@ export const UNISWAP_BASE_AGAINST_TOKENS: {
 
 export const THEGRAPH_UNISWAP_V2 = 'https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2'
 
-export const UNISWAP_INIT_CODE_HASH = INIT_CODE_HASH
+export const UNISWAP_V2_INIT_CODE_HASH = INIT_CODE_HASH
 
 export const MAX_HOP = 3
 
