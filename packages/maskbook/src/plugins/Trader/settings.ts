@@ -19,13 +19,9 @@ export const currentSlippageToleranceSettings = createGlobalSettings<number>(
 /**
  * Single Hop
  */
-export const currentSingleHopOnlySettings = createGlobalSettings<boolean>(
-    `${PLUGIN_IDENTIFIER}+singleHopOnly`,
-    false,
-    {
-        primary: () => '',
-    },
-)
+export const currentSingleHopOnlySettings = createGlobalSettings<boolean>(`${PLUGIN_IDENTIFIER}+singleHopOnly`, false, {
+    primary: () => '',
+})
 
 /**
  * The default data provider
