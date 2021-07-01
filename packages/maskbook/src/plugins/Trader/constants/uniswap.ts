@@ -26,10 +26,6 @@ export const UNISWAP_BASE_AGAINST_TOKENS: {
     [ChainId.Rinkeby]: [WETH, MSKA, MSKB, MSKC].map((x) => x[ChainId.Rinkeby]),
 }
 
-export const THEGRAPH_UNISWAP_V2 = 'https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2'
-
-export const UNISWAP_V2_INIT_CODE_HASH = INIT_CODE_HASH
-
 export const MAX_HOP = 3
 
 // used to ensure the user doesn't send so much ETH so they end up with <.01
