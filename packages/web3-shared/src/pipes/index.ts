@@ -36,6 +36,8 @@ export function resolveNetworkName(networkType: NetworkType) {
             return 'Polygon'
         case NetworkType.Ethereum:
             return 'Ethereum'
+        case NetworkType.Arbitrum:
+            return 'Arbitrum'
         default:
             safeUnreachable(networkType)
             return 'Unknown'
