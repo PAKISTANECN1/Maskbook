@@ -16,7 +16,7 @@
         "BSCT": ["https://dimensiondev.github.io/Mask-Token-List/mask.json"],
         "Matic": ["https://dimensiondev.github.io/Mask-Token-List/mask.json"],
         "Mumbai": ["https://dimensiondev.github.io/Mask-Token-List/mask.json"],
-        "ARBITRUM": []
+        "Arbitrum": []
     },
     "BALANCE_CHECKER_ADDRESS": {
         "Mainnet": "0xb1F8e55c7f64D203C1400B9D8555d050F94aDF39",
@@ -28,7 +28,7 @@
         "BSCT": "0x7f004a42D760Eb68eB95Fa50f739917675181fCA",
         "Matic": "0x6cc1b1058F9153358278C35E0b2D382f1585854B",
         "Mumbai": "0xFEd05EE9b7DdbAb97Abc55e27EF95C7c14688Aad",
-        "ARBITRUM": ""
+        "Arbitrum": ""
     },
     "MULTICALL_ADDRESS": {
         "Mainnet": "0xeefba1e63905ef1d7acba5a8513c70307c1ce441",
@@ -40,6 +40,6 @@
         "BSCT": "0x6e5BB1a5Ad6F68A8D7D6A5e47750eC15773d6042",
         "Matic": "0xC119574D5Fb333F5AC018658D4d8b5035E16bf39",
         "Mumbai": "0x6B70EC653c4331bdD0D0DCC7C941eb594e69a91d",
-        "ARBITRUM": ""
+        "Arbitrum": ""
     }
 }

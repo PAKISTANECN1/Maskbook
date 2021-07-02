@@ -4,7 +4,7 @@ import { run } from '../cli/utils'
 
 const DATA_PATH = path.join(__dirname, 'data')
 
-const chainNames = ['Mainnet', 'Ropsten', 'Rinkeby', 'Kovan', 'Gorli', 'BSC', 'BSCT', 'Matic', 'Mumbai', 'ARBITRUM']
+const chainNames = ['Mainnet', 'Ropsten', 'Rinkeby', 'Kovan', 'Gorli', 'BSC', 'BSCT', 'Matic', 'Mumbai', 'Arbitrum']
 
 async function main() {
     // format files

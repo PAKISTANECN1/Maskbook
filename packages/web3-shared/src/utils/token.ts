@@ -89,7 +89,7 @@ export function getChainIdFromNetworkType(networkType: NetworkType) {
         case NetworkType.Polygon:
             return ChainId.Matic
         case NetworkType.Arbitrum:
-            return ChainId.ARBITRUM
+            return ChainId.Arbitrum
         default:
             safeUnreachable(networkType)
             return ChainId.Mainnet

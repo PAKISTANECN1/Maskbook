@@ -9,7 +9,7 @@
         "BSCT": "",
         "Matic": "",
         "Mumbai": "",
-        "ARBITRUM": ""
+        "Arbitrum": ""
     },
     "UNISWAP_V2_HEALTH_URL": {
         "Mainnet": "https://api.thegraph.com/index-node/graphql",
@@ -21,7 +21,7 @@
         "BSCT": "",
         "Matic": "",
         "Mumbai": "",
-        "ARBITRUM": ""
+        "Arbitrum": ""
     },
     "ETHEREUM_BLOCKS_SUBGRAPH_URL": {
         "Mainnet": "https://api.thegraph.com/subgraphs/name/blocklytics/ethereum-blocks",
@@ -33,6 +33,6 @@
         "BSCT": "",
         "Matic": "",
         "Mumbai": "",
-        "ARBITRUM": ""
+        "Arbitrum": ""
     }
 }
