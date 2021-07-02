@@ -9,7 +9,8 @@
         "BSCT": "",
         "Matic": "",
         "Mumbai": "",
-        "Arbitrum": ""
+        "Arbitrum": "",
+        "Arbitrum_Rinkeby": ""
     },
     "HAPPY_RED_PACKET_ADDRESS_V2": {
         "Mainnet": "0x8D8912E1237F9FF3EF661F32743CFB276E052F98",
@@ -21,7 +22,8 @@
         "BSCT": "",
         "Matic": "",
         "Mumbai": "",
-        "Arbitrum": ""
+        "Arbitrum": "",
+        "Arbitrum_Rinkeby": ""
     },
     "HAPPY_RED_PACKET_ADDRESS_V3": {
         "Mainnet": "",
@@ -33,7 +35,8 @@
         "BSCT": "",
         "Matic": "0x913975af2bb8a6be4100d7dc5e9765b77f6a5d6c",
         "Mumbai": "0x0061E06c9f640a03C4981f43762d2AE5e03873c5",
-        "Arbitrum": ""
+        "Arbitrum": "",
+        "Arbitrum_Rinkeby": ""
     },
     "SUBGRAPH_URL": {
         "Mainnet": "https://api.thegraph.com/subgraphs/name/dimensiondev/mask-red-packet-mainnet",
@@ -45,6 +48,7 @@
         "BSCT": "",
         "Matic": "https://api.thegraph.com/subgraphs/name/dimensiondev/mask-red-packet-polygon",
         "Mumbai": "https://api.thegraph.com/subgraphs/name/dimensiondev/mask-red-packet-mumbai",
-        "Arbitrum": ""
+        "Arbitrum": "",
+        "Arbitrum_Rinkeby": ""
     }
 }
