@@ -5,13 +5,14 @@ import { EthereumAddress } from 'wallet.ts'
 import createMetaMaskProvider, { MetaMaskInpageProvider } from '@dimensiondev/metamask-extension-provider'
 import { ChainId, getNetworkTypeFromChainId, NetworkType, ProviderType } from '@masknet/web3-shared'
 import { updateExoticWalletFromSource } from '../../../../plugins/Wallet/services'
-import {
-    currentChainIdSettings,
-    currentAccountSettings,
-    currentProviderSettings,
-    currentIsMetamaskLockedSettings,
-    currentNetworkSettings,
-} from '../../../../plugins/Wallet/settings'
+
+// import {
+//     currentChainIdSettings,
+//     currentAccountSettings,
+//     currentProviderSettings,
+//     currentIsMetamaskLockedSettings,
+//     currentNetworkSettings,
+// } from '../../../../plugins/Wallet/settings'
 
 let provider: MetaMaskInpageProvider | null = null
 let web3: Web3 | null = null

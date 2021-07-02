@@ -1,8 +1,9 @@
 import Web3 from 'web3'
 import type { HttpProvider } from 'web3-core'
 import { ChainId, getChainDetailed } from '@masknet/web3-shared'
-import { currentChainIdSettings } from '../../../../plugins/Wallet/settings'
 import { getWalletsCached } from '../wallet'
+
+// import { currentChainIdSettings } from '../../../../plugins/Wallet/settings'
 
 //#region providers
 const providerPool = new Map<string, HttpProvider>()

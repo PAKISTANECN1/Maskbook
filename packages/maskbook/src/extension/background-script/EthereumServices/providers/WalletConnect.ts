@@ -6,12 +6,13 @@ import type { IJsonRpcRequest } from '@walletconnect/types'
 import { ProviderType, getNetworkTypeFromChainId, NetworkType, ChainId } from '@masknet/web3-shared'
 import * as Maskbook from '../providers/Maskbook'
 import { updateExoticWalletFromSource } from '../../../../plugins/Wallet/services'
-import {
-    currentChainIdSettings,
-    currentAccountSettings,
-    currentProviderSettings,
-    currentNetworkSettings,
-} from '../../../../plugins/Wallet/settings'
+
+// import {
+//     currentChainIdSettings,
+//     currentAccountSettings,
+//     currentProviderSettings,
+//     currentNetworkSettings,
+// } from '../../../../plugins/Wallet/settings'
 
 let connector: WalletConnect | null = null
 

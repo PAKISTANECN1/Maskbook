@@ -3,8 +3,9 @@ import { createTransaction } from '../../../database/helpers/openDB'
 import { getTransactionReceipt } from '../../../extension/background-script/EthereumService'
 import type { TransactionRecord } from '../database/types'
 import { createWalletDBAccess } from '../database/Wallet.db'
-import { currentChainIdSettings } from '../settings'
 import { TransactionChunkRecordIntoDB, TransactionChunkRecordOutDB } from './helpers'
+
+// import { currentChainIdSettings } from '../settings'
 
 const MAX_RECENT_TRANSACTIONS_SIZE = 5
 

@@ -1,16 +1,17 @@
 import { ChainId, getNetworkTypeFromChainId, ProviderType } from '@masknet/web3-shared'
 import { getBalance, getBlockNumber, resetAllNonce } from '../../../extension/background-script/EthereumService'
 import { pollingTask, startEffects } from '../../../utils'
-import {
-    currentAccountSettings,
-    currentBalanceSettings,
-    currentBlockNumberSettings,
-    currentChainIdSettings,
-    currentNetworkSettings,
-    currentProviderSettings,
-} from '../settings'
 import { UPDATE_CHAIN_STATE_DELAY } from '../constants'
 import { getWallet } from './wallet'
+
+// import {
+//     currentAccountSettings,
+//     currentBalanceSettings,
+//     currentBlockNumberSettings,
+//     currentChainIdSettings,
+//     currentNetworkSettings,
+//     currentProviderSettings,
+// } from '../settings'
 
 const beats: true[] = []
 
