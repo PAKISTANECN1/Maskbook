@@ -8,28 +8,14 @@
             "http://tokenlist.dharma.eth.link",
             "https://dimensiondev.github.io/Mask-Token-List/mask.json"
         ],
-        "Ropsten": [
-            "https://dimensiondev.github.io/Mask-Token-List/mask.json"
-        ],
-        "Rinkeby": [
-            "https://dimensiondev.github.io/Mask-Token-List/mask.json"
-        ],
-        "Kovan": [
-            "https://irhonin.github.io/kovan-token-list/kovan-token-list.json"
-        ],
+        "Ropsten": ["https://dimensiondev.github.io/Mask-Token-List/mask.json"],
+        "Rinkeby": ["https://dimensiondev.github.io/Mask-Token-List/mask.json"],
+        "Kovan": ["https://irhonin.github.io/kovan-token-list/kovan-token-list.json"],
         "Gorli": [],
-        "BSC": [
-            "https://dimensiondev.github.io/Mask-Token-List/mask.json"
-        ],
-        "BSCT": [
-            "https://dimensiondev.github.io/Mask-Token-List/mask.json"
-        ],
-        "Matic": [
-            "https://dimensiondev.github.io/Mask-Token-List/mask.json"
-        ],
-        "Mumbai": [
-            "https://dimensiondev.github.io/Mask-Token-List/mask.json"
-        ],
+        "BSC": ["https://dimensiondev.github.io/Mask-Token-List/mask.json"],
+        "BSCT": ["https://dimensiondev.github.io/Mask-Token-List/mask.json"],
+        "Matic": ["https://dimensiondev.github.io/Mask-Token-List/mask.json"],
+        "Mumbai": ["https://dimensiondev.github.io/Mask-Token-List/mask.json"],
         "ARBITRUM": []
     },
     "BALANCE_CHECKER_ADDRESS": {
