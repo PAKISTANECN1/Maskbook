@@ -19,7 +19,7 @@
     "minProperties": 1,
     "definitions": {
         "chain-id": {
-            "enum": ["Mainnet", "Ropsten", "Rinkeby", "Gorli", "Kovan", "BSC", "BSCT", "Matic", "Mumbai"]
+            "enum": ["Mainnet", "Ropsten", "Rinkeby", "Gorli", "Kovan", "BSC", "BSCT", "Matic", "Mumbai", "ARBITRUM"]
         },
         "primitive": {
             "type": ["string", "integer", "boolean", "null"]

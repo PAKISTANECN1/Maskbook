@@ -35,6 +35,7 @@
         "Mumbai": [
             "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/polygon",
             "https://rawcdn.githack.com/trustwallet/assets/master/blockchains/polygon"
-        ]
+        ],
+        "ARBITRUM": []
     }
 }
